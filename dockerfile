@@ -26,6 +26,6 @@ RUN chmod +x /start-container.sh
 ENV GITEA_WORK_DIR=/data/gitea
 ENV GITEA_CUSTOM=/data/gitea
 
-EXPOSE 7860 3000
+EXPOSE 7860 300
 
 ENTRYPOINT ["/bin/bash", "/start-container.sh"]
